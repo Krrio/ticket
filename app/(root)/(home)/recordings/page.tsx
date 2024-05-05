@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";  // Importing the arrow icon
+import { ArrowRight } from "lucide-react"; // Importing the arrow icon
 
 const shoppingList = [
   { id: 1, name: 'Strój Kąpielowy', quantity: 1, icon: '🩱' },
@@ -24,7 +24,10 @@ const Page = () => {
           </div>
         ))}
       </div>
-      <Button className="mt-4 bg-white text-black border border-gray-300 rounded-lg flex items-center gap-2" variant="solid">
+      <Button
+        variant="outline" // Corrected the variant here
+        className="bg-white text-black border border-gray-300 rounded-lg flex items-center gap-2 mt-4"
+      >
         Checkout <ArrowRight className="w-4 h-4" />
       </Button>
     </div>

@@ -32,7 +32,7 @@ const Page = () => {
         </span>
         <div className="flex gap-4 mt-[20px]">
           <Button
-            variant="solid"
+            variant="default"
             className="bg-orange-1 text-white"
             onClick={() => router.push("/recordings")}
           >
