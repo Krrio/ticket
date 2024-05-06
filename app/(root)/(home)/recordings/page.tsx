@@ -6,7 +6,8 @@ const shoppingList = [
   { id: 1, name: 'Strój Kąpielowy', quantity: 1, icon: '🩱' },
   { id: 2, name: 'Tropikalny Stich', quantity: 1, icon: '🌴' },
   { id: 3, name: 'Przewodnik', quantity: 1, icon: '📖' },
-  { id: 4, name: 'Wrażenia', quantity: "99999", icon: '✨' },
+  { id: 4, name: 'Szczepionka', quantity: "1", icon: '💉' },
+  { id: 5, name: 'Wrażenia', quantity: "99999", icon: '✨' },
 ];
 
 const Page = () => {
@@ -25,7 +26,7 @@ const Page = () => {
         ))}
       </div>
       <Button
-        variant="outline" // Corrected the variant here
+        variant="outline" 
         className="bg-white text-black border border-gray-300 rounded-lg flex items-center gap-2 mt-4"
       >
         Checkout <ArrowRight className="w-4 h-4" />
